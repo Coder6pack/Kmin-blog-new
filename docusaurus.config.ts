@@ -53,6 +53,21 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      },
+    ],
+  ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -78,13 +93,6 @@ const config: Config = {
         },
       ],
     },
-    algolia: {
-      apiKey: "24a51b4a71a063137e13e802c4adb61c",
-      appId: "A79DNQ9ZEO",
-      indexName: "dev_search",
-      contextualSearch: true,
-    },
-
     footer: {
       style: "dark",
       links: [
