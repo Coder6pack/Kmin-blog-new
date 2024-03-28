@@ -79,11 +79,12 @@ const config: Config = {
       ],
     },
     algolia: {
-      apiKey: "9af82cc24a1737665a058efa04e58434",
-      appId: "YJOC23RS1N",
-      indexName: "kmin--new",
+      apiKey: "24a51b4a71a063137e13e802c4adb61c",
+      appId: "A79DNQ9ZEO",
+      indexName: "dev_search",
       contextualSearch: true,
     },
+
     footer: {
       style: "dark",
       links: [
