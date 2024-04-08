@@ -3,9 +3,9 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "KMIN BLOG",
+  tagline: "Ở đây có rất nhiều tips hay và cực cool",
+  favicon: "img/kminacdemy-logo.png",
 
   // Set the production url of your site here
   url: "https://kmin-blog-new.vercel.app/",
@@ -73,10 +73,11 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Home",
+      style: "dark",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/kmin-logo.png",
       },
       items: [
         {

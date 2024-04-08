@@ -5,10 +5,11 @@ import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
-import GiscusComponent from "../components/GiscusComponent";
+import HomepageFeatures from "../components/HomepageFeatures";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  console.log(siteConfig);
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -21,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            Học cùng Kmin nhé ! 😍
           </Link>
         </div>
       </div>
@@ -33,7 +34,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Hello from `}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
@@ -42,7 +43,7 @@ export default function Home(): JSX.Element {
           {/* <BlogPostItemWrapper enableComments={true} /> */}
         </div>
         <div className="container">
-          <GiscusComponent />
+          <HomepageFeatures />
         </div>
       </main>
     </Layout>
