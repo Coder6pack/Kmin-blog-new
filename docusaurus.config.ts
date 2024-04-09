@@ -75,7 +75,8 @@ const config: Config = {
     announcementBar: {
       id: "about_us",
       backgroundColor: "#2a4858",
-      content: `Để biết thêm những khoá học đang có chương trình siêu đãi,mời bạn ấn <a href="https://kmin.edu.vn/" style={{ textDecoration: "underline" }}> VÀO ĐÂY</a>!`,
+      content:
+        '🌟 Để biết thêm những khoá học đang có chương trình siêu đãi,mời bạn ấn <a href="https://kmin.edu.vn/"> VÀO ĐÂY</a>! 🌟',
       isCloseable: false,
       textColor: "#FFFFFF",
     },
