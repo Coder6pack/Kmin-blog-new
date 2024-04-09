@@ -71,10 +71,20 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/kmin-social-card.jpg",
+    announcementBar: {
+      id: "about_us",
+      backgroundColor: "#2a4858",
+      content: `🌟 Để biết thêm những khoá học đang có chương trình siêu đãi,mời bạn ấn <a href="https://kmin.edu.vn/" target="_blank" style={{ textDecoration: "underline" }}
+    >
+       VÀO ĐÂY
+    </a>! 🌟`,
+      isCloseable: false,
+      textColor: "#FFFFFF",
+    },
     navbar: {
       title: "Home",
-      style: "dark",
+      style: "primary",
       logo: {
         alt: "My Site Logo",
         src: "img/kmin-logo.png",

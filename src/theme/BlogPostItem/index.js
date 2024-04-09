@@ -12,6 +12,13 @@ export default function BlogPostItemWrapper(props) {
   console.log(metadata.date);
   return (
     <>
+      <a
+        href="https://kmin.edu.vn/"
+        target="_blank"
+        style={{ textDecoration: "underline" }}
+      >
+        VÀO ĐÂY
+      </a>
       <BlogPostItem {...props} />
       {isBlogPostPage && <GiscusComponent />}
     </>
