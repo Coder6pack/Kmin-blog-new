@@ -42,8 +42,6 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
@@ -68,6 +66,7 @@ const config: Config = {
       },
     ],
   ],
+  plugins: [],
 
   themeConfig: {
     // Replace with your project's social card
@@ -76,7 +75,7 @@ const config: Config = {
       id: "about_us",
       backgroundColor: "#2a4858",
       content:
-        '🌟 Để biết thêm những khoá học đang có chương trình siêu đãi,mời bạn ấn <a href="https://kmin.edu.vn/"> VÀO ĐÂY</a>! 🌟',
+        '🌟 Để biết thêm những khoá học đang có chương trình siêu ưu đãi,mời bạn ấn <a href="https://kmin.edu.vn/"> VÀO ĐÂY</a>! 🌟',
       isCloseable: false,
       textColor: "#FFFFFF",
     },

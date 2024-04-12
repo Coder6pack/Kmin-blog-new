@@ -1,0 +1,25 @@
+.tagName {
+    padding: 3.2px 8px 4.8px;
+    font-size: 14.4px;
+    border: 1px solid #dadde1;
+    border-radius: 0.4rem;
+}
+
+.tagName:hover {
+    border: 1px solid;
+    transition-duration: 2000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tagList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tagListTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
