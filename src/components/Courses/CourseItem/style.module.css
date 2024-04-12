@@ -36,3 +36,7 @@
     margin: 4px 0px;
     display: inline-block;
 }
+
+.courseWrapper:hover {
+    text-decoration: none;
+}

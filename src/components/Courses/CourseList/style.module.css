@@ -1,5 +1,6 @@
 .container {
     margin-bottom: 8px;
     overflow-y: scroll;
-    height: 600px;
+    height: 550px;
+    scrollbar-color: #5d8883 #dadde1;
 }
